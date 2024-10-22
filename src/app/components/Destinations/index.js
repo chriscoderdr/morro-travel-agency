@@ -28,15 +28,15 @@ const Destinations = () => {
 
   return (
     <div
-      className="flex justify-center w-[1200px] flex-col mt-[100px]"
+      className="mt-[100px] flex w-[1200px] flex-col justify-center"
       id="destinations"
     >
       <div className="flex justify-between">
-        <div className="text-heading-desktop-1 font-gilda text-neutral900 whitespace-pre-line">
+        <div className="whitespace-pre-line font-gilda text-heading-desktop-1 text-neutral900">
           {"Find your best\ndestination"}
         </div>
         <div className="pt-[33px]">
-          <div className="text-neutral700 font-urbanist font-medium">
+          <div className="font-urbanist font-medium text-neutral700">
             We have more than 1000+ destinations you can choose.
           </div>
           <SearchBar onSearchChange={handleSearchChange} />

@@ -4,18 +4,18 @@ import Image from "next/image";
 const Destination = ({ destination }) => {
   return (
     <a href={destination.externalUrl}>
-      <div className="basis-1/2.9 px-[16px] items-center pt-[16px] border border-[neutral100] flex flex-col justify-center pb-[36px] shadow-[105.45px_50.41px_78.04px_rgba(55,54,100,0.05),-55.45px_50.41px_98px_rgba(55,54,100,0.04)] bg-[#FFFFFF]">
+      <div className="basis-1/2.9 flex flex-col items-center justify-center border border-[neutral100] bg-[#FFFFFF] px-[16px] pb-[36px] pt-[16px] shadow-[105.45px_50.41px_78.04px_rgba(55,54,100,0.05),-55.45px_50.41px_98px_rgba(55,54,100,0.04)]">
         <Image
           src={destination.imageUrl}
           alt="Travel Image"
           width={338} // Set appropriate width
           height={248} // Set appropriate height based on image aspect ratio
-          className="w-[338px] h-[248px]"
+          className="h-[248px] w-[338px]"
         />
-        <div className="font-bold text-[24px] text-neutral900 font-urbanist mt-[28px]">
+        <div className="mt-[28px] font-urbanist text-[24px] font-bold text-neutral900">
           {destination.name}
         </div>
-        <div className="font-semibold text-[18px] text-neutral900 font-urbanist mt-[8px] flex items-center">
+        <div className="mt-[8px] flex items-center font-urbanist text-[18px] font-semibold text-neutral900">
           <Location size="20" color="#25a59e" variant="Bold" />
           {destination.location}
         </div>

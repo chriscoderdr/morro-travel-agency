@@ -4,30 +4,30 @@ import NavBar from "../components/Header/Navbar";
 
 const About = () => {
   return (
-    <div className="w-[1200px] mx-auto">
+    <div className="mx-auto w-[1200px]">
       <NavBar />
       <div className="font-gilda">
-        <h1 className="font-urbanist text-brand600 text-heading-desktop-1 font-normal text-centerm mt-[90px]">
+        <h1 className="text-centerm mt-[90px] font-urbanist text-heading-desktop-1 font-normal text-brand600">
           About Us
         </h1>
-        <hr className="border-t-[1px] border-[#D9D9D9] w-full" />
-        <p className="text-lg mb-4 mt-[60px]">
+        <hr className="w-full border-t-[1px] border-[#D9D9D9]" />
+        <p className="mb-4 mt-[60px] text-lg">
           Welcome to this demo project, created as part of my web development
           portfolio. While this company isn&lsquo;t real, the goal of this
           project is to bring a Figma design (which I did not create) to life as
           a fully functional web application built from scratch.
         </p>
-        <p className="text-lg mb-4">
+        <p className="mb-4 text-lg">
           This project demonstrates my expertise in <strong>React.js</strong>{" "}
           and <strong>Next.js</strong>, showcasing how I can take a design and
           turn it into a modern website. Every line of code here was written by
           me, focusing on delivering a clean and efficient user experience.
         </p>
 
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="mb-3 text-2xl font-semibold">
           What I&lsquo;ve Implemented:
         </h2>
-        <ul className="list-disc list-inside mb-4 text-lg">
+        <ul className="mb-4 list-inside list-disc text-lg">
           <li>
             <strong>Design to Web:</strong> The Figma design was transformed
             into a working website.
@@ -50,7 +50,7 @@ const About = () => {
           </li>
         </ul>
 
-        <p className="text-lg mb-4">
+        <p className="mb-4 text-lg">
           This page is a demonstration of my ability to build
           professional-quality websites that align with the client&lsquo;s
           vision. If you&lsquo;d like to know more about my work or get in

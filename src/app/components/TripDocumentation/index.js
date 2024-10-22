@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const TripDocumentation = () => {
   return (
-    <div className="flex py-[100px] justify-center flex-col items-center">
-      <div className="whitespace-pre-line text-neutral-900 text-heading-desktop-1 text-center font-gilda">
+    <div className="flex flex-col items-center justify-center py-[100px]">
+      <div className="whitespace-pre-line text-center font-gilda text-heading-desktop-1 text-neutral-900">
         {"Watch our entire trip\ndocumentation"}
       </div>
       <div>

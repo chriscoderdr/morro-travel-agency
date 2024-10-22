@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="w-[1200px] mx-auto">
+    <div className="mx-auto w-[1200px]">
       <Header />
       <Destinations />
       <WhyChooseUs />

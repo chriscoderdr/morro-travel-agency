@@ -13,22 +13,22 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="py-[100px]">
-      <div className="flex justify-between items-center">
-        <div className="text-heading-desktop-1 text-neutral-900 font-gilda">
+      <div className="flex items-center justify-between">
+        <div className="font-gilda text-heading-desktop-1 text-neutral-900">
           Get our best offer now!
         </div>
         <div>
           <Button text={"Click here!"} />
         </div>
       </div>
-      <hr className="border-t-[1px] border-[#D9D9D9] mt-[48px] w-full" />
-      <div className="pt-[80px] flex justify-between">
+      <hr className="mt-[48px] w-full border-t-[1px] border-[#D9D9D9]" />
+      <div className="flex justify-between pt-[80px]">
         <div>
-          <div className="text-brand600 font-gilda text-[28px]">Travel</div>
-          <div className="mt-[20px] text-[18px] urbanist font-medium whitespace-pre-line">
+          <div className="font-gilda text-[28px] text-brand600">Travel</div>
+          <div className="urbanist mt-[20px] whitespace-pre-line text-[18px] font-medium">
             {"The best travel agent in the world.\n Contact us immediatly now!"}
           </div>
-          <div className="flex mt-[48px]">
+          <div className="mt-[48px] flex">
             <div>
               <a href="https://www.instagram.com/chris__coder/">
                 <Instagram size="40" color="#25a59e" />

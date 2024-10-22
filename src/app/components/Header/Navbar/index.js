@@ -12,9 +12,9 @@ const NavBar = () => {
   };
   return (
     <div>
-      <div className="max-w-[1200px] mx-auto flex justify-between mt-[45px]">
+      <div className="mx-auto mt-[45px] flex max-w-[1200px] justify-between">
         <Link href="/">
-          <div className="text-left text-brand600 font-bold text-[28px] tracking-[0.1em]">
+          <div className="text-left text-[28px] font-bold tracking-[0.1em] text-brand600">
             Travel
           </div>
         </Link>
@@ -27,17 +27,17 @@ const NavBar = () => {
 
       {/* Slide-in Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-gray-800 text-white transform ${
+        className={`fixed right-0 top-0 h-full w-64 transform bg-gray-800 text-white ${
           isOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out z-50`}
+        } z-50 transition-transform duration-300 ease-in-out`}
       >
         <button
           onClick={toggleMenu}
-          className="absolute top-4 right-4 text-white"
+          className="absolute right-4 top-4 text-white"
         >
           {/* Close Button */}
           <svg
-            className="w-6 h-6"
+            className="h-6 w-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -78,7 +78,7 @@ const NavBar = () => {
       {/* Overlay to close the menu by clicking outside */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black opacity-50 z-40"
+          className="fixed inset-0 z-40 bg-black opacity-50"
           onClick={toggleMenu}
         ></div>
       )}

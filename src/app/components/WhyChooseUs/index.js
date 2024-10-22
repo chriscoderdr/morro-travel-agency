@@ -2,12 +2,12 @@ import Card from "./Card";
 
 const WhyChooseUs = () => {
   return (
-    <div className="py-[100px] flex justify-center items-center flex-col">
+    <div className="flex flex-col items-center justify-center py-[100px]">
       <div>
-        <div className="text-neutral900 text-heading-desktop-1 text-center font-gilda">
+        <div className="text-center font-gilda text-heading-desktop-1 text-neutral900">
           Why must choose us
         </div>
-        <div className="text-neutral600 text-[18px] font-medium font-urbanist text-center pt-[24px] whitespace-pre-line">
+        <div className="whitespace-pre-line pt-[24px] text-center font-urbanist text-[18px] font-medium text-neutral600">
           {
             "We have been around for over 10 years. Accompany all our customers all over the world. Thousands of our\ncustomers always recommend us because of the service we provide. We are always re-elected and now you\nwill choose us as your travel agent!"
           }
