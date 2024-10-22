@@ -29,17 +29,17 @@ const Footer = () => {
           </div>
           <div className="flex mt-[48px]">
             <div>
-              <a href="#">
+              <a href="https://www.instagram.com/chris__coder/">
                 <Instagram size="40" color="#25a59e" />
               </a>
             </div>
             <div className="mx-[10px]">
-              <a href="#">
+              <a href="https://www.youtube.com/@chriscoder-rd">
                 <Youtube size="40" color="#25a59e" />
               </a>
             </div>
             <div>
-              <a href="#">
+              <a href="https://www.twitch.tv/chris_coder">
                 <Twitch size="40" color="#25a59e" />
               </a>
             </div>
@@ -53,16 +53,16 @@ const Footer = () => {
           </div>
           <div className="flex items-end justify-between gap-x-10 font-urbanist">
             <div>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </div>
             <div>
-              <a href="#">Destinations</a>
+              <a href="#destinations">Destinations</a>
             </div>
             <div>
-              <a href="#">Guide</a>
+              <a href="/about">About</a>
             </div>
             <div>
-              <a href="#">Contact Us</a>
+              <a href="https://www.linkedin.com/in/chriscoderg/">Contact Us</a>
             </div>
           </div>
         </div>

@@ -4,37 +4,43 @@
             "id": 1,
             "name": "Palawan",
             "imageUrl": "https://images.unsplash.com/photo-1547122891-8aae3f2a03dc?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "location": "Philippines"
+            "location": "Philippines",
+            "externalUrl": "https://www.thecrazytourist.com/25-best-things-palawan-island-philippines/"
         },
         {
             "id": 2,
             "name":"Boracay",
             "location": "Philippines",
-            "imageUrl": "https://images.unsplash.com/photo-1594697797606-e79a612f0dec?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "imageUrl": "https://images.unsplash.com/photo-1594697797606-e79a612f0dec?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "externalUrl": "https://www.thecrazytourist.com/25-best-things-palawan-island-philippines/"
         },
         {
             "id": 3,
             "name":"Punta cana",
             "location": "La Romana, Dominican Republic",
-            "imageUrl": "https://images.unsplash.com/photo-1504897264915-7a1d030ccd00?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "imageUrl": "https://images.unsplash.com/photo-1504897264915-7a1d030ccd00?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "externalUrl": "https://www.thecrazytourist.com/25-best-things-palawan-island-philippines/"
         },
         {
             "id": 4,
             "name": "Cococay",
             "location": "Berry Islands, Bahamas",
-            "imageUrl": "https://images.unsplash.com/photo-1559956144-83a135c9872e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "imageUrl": "https://images.unsplash.com/photo-1559956144-83a135c9872e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "externalUrl": "https://www.thecrazytourist.com/25-best-things-palawan-island-philippines/"
         },
         {
             "id": 5,
             "name": "Talisay",
             "location": "Palawan, Philippines",
-            "imageUrl": "https://images.unsplash.com/photo-1611088223900-9ff3d76f9a70?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "imageUrl": "https://images.unsplash.com/photo-1611088223900-9ff3d76f9a70?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "externalUrl": "https://www.thecrazytourist.com/25-best-things-palawan-island-philippines/"
         },
         {
             "id": 6,
             "name": "Malecon",
             "location": "Santiago, Cuba",
-            "imageUrl": "https://images.unsplash.com/photo-1484323896115-e7c27cd29bce?q=80&w=2082&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "imageUrl": "https://images.unsplash.com/photo-1484323896115-e7c27cd29bce?q=80&w=2082&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "externalUrl": "https://www.thecrazytourist.com/25-best-things-palawan-island-philippines/"
         }
     ]
 }
