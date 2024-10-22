@@ -12,10 +12,10 @@ const Destination = ({ destination }) => {
           height={248} // Set appropriate height based on image aspect ratio
           className="h-[248px] w-[338px]"
         />
-        <div className="mt-[28px] font-urbanist text-[24px] font-bold text-neutral900">
+        <div className="mt-[28px] font-urbanist font-bold text-neutral900 sm:text-heading-mobile-3 sm:leading-heading-mobile-3 lg:text-heading-desktop-3 lg:leading-heading-desktop-3">
           {destination.name}
         </div>
-        <div className="mt-[8px] flex items-center font-urbanist text-[18px] font-semibold text-neutral900">
+        <div className="mt-[8px] flex items-center font-urbanist font-semibold text-neutral900 sm:text-body-mobile-15 sm:leading-body-mobile-15 lg:text-body-desktop-18 lg:leading-body-desktop-18">
           <Location size="20" color="#25a59e" variant="Bold" />
           {destination.location}
         </div>

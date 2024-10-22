@@ -23,11 +23,31 @@ module.exports = {
       },
       fontSize: {
         "display-desktop-1": "170px",
-        "heading-desktop-1": "72px",
+        "display-mobile-1": "52px",
+
         "heading-desktop-2": "40px",
+
+        "heading-desktop-1": "72px",
+        "heading-mobile-1": "40px",
+
+        "heading-desktop-3": "24px",
+        "heading-mobile-3": "20px",
+
+        "body-desktop-18": "18px",
+        "body-mobile-15": "16px",
       },
       lineHeight: {
         "display-desktop-1": "170px",
+        "display-mobile-1": "61px",
+
+        "heading-desktop-1": "84px",
+        "heading-mobile-1": "52px",
+
+        "heading-desktop-3": "36px",
+        "heading-mobile-3": "28px",
+
+        "body-desktop-18": "32px",
+        "body-mobile-15": "24px",
       },
       maxWidth: {
         "header-text": "1340px",

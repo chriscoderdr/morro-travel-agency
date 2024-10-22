@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div className="py-[100px]">
       <div className="flex items-center justify-between">
-        <div className="font-gilda text-heading-desktop-1 text-neutral-900">
+        <div className="font-gilda text-neutral-900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           Get our best offer now!
         </div>
         <div>

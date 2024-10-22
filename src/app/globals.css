@@ -33,6 +33,8 @@ body {
 }
 
 .outer-semicircle {
+  min-width: 900px;
+  min-height: 450px;
   width: 900px;
   height: 450px;
   border-top-left-radius: 450px;
@@ -49,6 +51,8 @@ body {
 }
 
 .inner-semicircle {
+  min-width: 858px;
+  min-height: 429px;
   width: 858px;
   /* Inner semicircle size */
   height: 429px;

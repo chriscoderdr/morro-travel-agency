@@ -28,11 +28,11 @@ const Destinations = () => {
 
   return (
     <div
-      className="mt-[100px] flex w-[1200px] flex-col justify-center"
+      className="mt-[100px] flex flex-col flex-wrap justify-center"
       id="destinations"
     >
-      <div className="flex justify-between">
-        <div className="whitespace-pre-line font-gilda text-heading-desktop-1 text-neutral900">
+      <div className="flex flex-wrap justify-between">
+        <div className="whitespace-pre-line font-gilda text-neutral900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           {"Find your best\ndestination"}
         </div>
         <div className="pt-[33px]">

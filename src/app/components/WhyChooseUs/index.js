@@ -4,7 +4,7 @@ const WhyChooseUs = () => {
   return (
     <div className="flex flex-col items-center justify-center py-[100px]">
       <div>
-        <div className="text-center font-gilda text-heading-desktop-1 text-neutral900">
+        <div className="text-center font-gilda text-neutral900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           Why must choose us
         </div>
         <div className="whitespace-pre-line pt-[24px] text-center font-urbanist text-[18px] font-medium text-neutral600">
@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
           }
         </div>
       </div>
-      <div className="flex flex-row gap-x-[20px]">
+      <div className="flex flex-row flex-wrap gap-x-[20px]">
         <Card
           title={"Best Guide, Best\nExperience."}
           content={"Your trip will be very memorable with\n the best guide."}

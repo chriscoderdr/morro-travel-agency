@@ -7,10 +7,14 @@ import Destinations from "../Destinations";
 const Header = () => {
   return (
     <div>
-      <NavBar />
-      <HeroTitle />
-      <CalloutImage />
-      <Callout />
+      <div className="flex flex-col flex-wrap items-center">
+        <div className="min-w-full">
+          <NavBar />
+        </div>
+        <HeroTitle />
+        <CalloutImage />
+        <Callout />
+      </div>
     </div>
   );
 };

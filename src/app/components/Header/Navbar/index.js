@@ -12,7 +12,7 @@ const NavBar = () => {
   };
   return (
     <div>
-      <div className="mx-auto mt-[45px] flex max-w-[1200px] justify-between">
+      <div className="mx-auto mt-[45px] flex justify-between">
         <Link href="/">
           <div className="text-left text-[28px] font-bold tracking-[0.1em] text-brand600">
             Travel
