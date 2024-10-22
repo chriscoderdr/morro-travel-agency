@@ -8,7 +8,6 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log("toggle menu was called");
     setIsOpen(!isOpen);
   };
   return (
@@ -21,7 +20,7 @@ const NavBar = () => {
         </Link>
         <div className="text-right">
           <button onClick={toggleMenu}>
-            <Image src="/menu.svg" alt="Menu" width={28} height={33} priority />
+            <Image src="/menu.svg" alt="Menu" width={28} height={33}  />
           </button>
         </div>
       </div>

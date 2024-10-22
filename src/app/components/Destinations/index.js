@@ -25,7 +25,6 @@ const Destinations = () => {
             .includes(searchTerm.toLocaleLowerCase())
       )
     : [];
-  console.log("destinationsjson", destinations);
 
   return (
     <div className="flex justify-center w-[1200px] flex-col mt-[100px]" id="destinations">
