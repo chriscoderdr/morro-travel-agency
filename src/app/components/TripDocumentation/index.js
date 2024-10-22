@@ -3,7 +3,7 @@ import Image from "next/image";
 const TripDocumentation = () => {
   return (
     <div className="flex flex-col items-center justify-center py-[100px]">
-      <div className="whitespace-pre-line text-wrap text-center font-gilda text-neutral-900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
+      <div className="whitespace-pre-line text-wrap text-center font-gilda text-heading-mobile-1 leading-heading-mobile-1 text-neutral-900 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
         {"Watch our entire trip\ndocumentation"}
       </div>
       <div>

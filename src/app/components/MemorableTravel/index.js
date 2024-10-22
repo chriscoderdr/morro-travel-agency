@@ -5,7 +5,7 @@ const MemorableTravel = () => {
   return (
     <div className="flex justify-between py-[100px]">
       <div className="flex-1">
-        <div className="font-gilda text-neutral-900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
+        <div className="font-gilda text-heading-mobile-1 leading-heading-mobile-1 text-neutral-900 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           <span className="text-brand600">Travel</span>, make the trip memorable
         </div>
         <div className="mt-[28px] font-urbanist text-[18px] font-medium text-neutral700">

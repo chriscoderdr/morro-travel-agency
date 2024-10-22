@@ -31,8 +31,8 @@ const Destinations = () => {
       className="mt-[100px] flex flex-col flex-wrap justify-center"
       id="destinations"
     >
-      <div className="flex flex-wrap justify-between">
-        <div className="whitespace-pre-line font-gilda text-neutral900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
+      <div className="flex flex-wrap justify-around pb-10 lg:justify-between">
+        <div className="whitespace-pre-line font-gilda text-heading-mobile-1 leading-heading-mobile-1 text-neutral900 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           {"Find your best\ndestination"}
         </div>
         <div className="pt-[33px]">
@@ -42,7 +42,7 @@ const Destinations = () => {
           <SearchBar onSearchChange={handleSearchChange} />
         </div>
       </div>
-      <div className="flex flex-wrap justify-between gap-y-[40px]">
+      <div className="flex flex-wrap justify-around gap-y-[40px] lg:justify-center lg:gap-10">
         {filteredDestinations?.length > 0 ? (
           filteredDestinations.map((destination) => (
             <Destination key={destination.id} destination={destination} />

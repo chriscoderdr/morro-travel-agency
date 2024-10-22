@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div className="py-[100px]">
       <div className="flex items-center justify-between">
-        <div className="font-gilda text-neutral-900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
+        <div className="font-gilda text-heading-mobile-1 leading-heading-mobile-1 text-neutral-900 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           Get our best offer now!
         </div>
         <div>
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="mt-[48px] w-full border-t-[1px] border-[#D9D9D9]" />
-      <div className="flex justify-between pt-[80px]">
+      <div className="flex flex-wrap justify-between pt-[80px]">
         <div>
           <div className="font-gilda text-[28px] text-brand600">Travel</div>
           <div className="urbanist mt-[20px] whitespace-pre-line text-[18px] font-medium">
