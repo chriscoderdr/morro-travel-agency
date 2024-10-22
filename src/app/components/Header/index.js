@@ -9,16 +9,9 @@ const Header = () => {
     return (
         <div>
             <NavBar />
-
-            <div className="w-[1200px] mx-auto mt-[120px]">
-                <HeroTitle />
-
-                <CalloutImage />
-
-                <Callout />
-                <Destinations />
-
-            </div>
+            <HeroTitle />
+            <CalloutImage />
+            <Callout />
         </div>
     );
 };
