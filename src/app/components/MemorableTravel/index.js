@@ -14,9 +14,11 @@ const MemorableTravel = () => {
           agent, <span className="text-brand600">Travel!</span>
         </div>
         <div className="mt-[48px] flex">
-          <Button text={'See More'} />
+          <Button text={"See More"} />
           <div className="font-urbanist text-[#333333] text-[18px] font-semibold px-[32px] py-[16px] underline-offset-8 underline">
-            <a href="#">Discover More</a>
+            <a href="#" className="font-urbanist">
+              Discover More
+            </a>
           </div>
         </div>
       </div>

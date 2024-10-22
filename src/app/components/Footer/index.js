@@ -51,7 +51,7 @@ const Footer = () => {
               <ArrowCircleUp size="40" color="#25a59e" />
             </a>
           </div>
-          <div className="flex items-end justify-between gap-x-10">
+          <div className="flex items-end justify-between gap-x-10 font-urbanist">
             <div>
               <a href="#">Home</a>
             </div>
