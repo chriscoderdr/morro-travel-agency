@@ -3,6 +3,7 @@ import Header from "@/app/components/Header";
 import Destinations from "./components/Destinations";
 import WhyChooseUs from "./components/WhyChooseUs";
 import MemorableTravel from "./components/MemorableTravel";
+import TripDocumentation from "./components/TripDocumentation";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Destinations />
       <WhyChooseUs />
       <MemorableTravel />
+      <TripDocumentation />
     </div>
   );
 }
