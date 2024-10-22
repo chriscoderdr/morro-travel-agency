@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 const NavBar = () => {
@@ -13,11 +14,11 @@ const NavBar = () => {
   return (
     <div>
       <div className="max-w-[1200px] mx-auto flex justify-between mt-[45px]">
-        <a href="/">
+        <Link href="/">
         <div className="text-left text-brand600 font-bold text-[28px] tracking-[0.1em]">
           Travel
         </div>
-        </a>
+        </Link>
         <div className="text-right">
           <button onClick={toggleMenu}>
             <Image src="/menu.svg" alt="Menu" width={28} height={33} priority />
@@ -52,9 +53,9 @@ const NavBar = () => {
           </svg>
         </button>
         <nav className="mt-10">
-          <a href="/" className="block px-4 py-2" onClick={toggleMenu}>
+          <Link href="/" className="block px-4 py-2" onClick={toggleMenu}>
             Home
-          </a>
+          </Link>
           <a href="#destinations" className="block px-4 py-2" onClick={toggleMenu}>
             Destinations
           </a>

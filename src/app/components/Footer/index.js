@@ -8,6 +8,7 @@ import {
 } from "iconsax-react";
 import Button from "../Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -53,13 +54,13 @@ const Footer = () => {
           </div>
           <div className="flex items-end justify-between gap-x-10 font-urbanist">
             <div>
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </div>
             <div>
               <a href="#destinations">Destinations</a>
             </div>
             <div>
-              <a href="/about">About</a>
+              <Link href="/about">About</Link>
             </div>
             <div>
               <a href="https://www.linkedin.com/in/chriscoderg/">Contact Us</a>
