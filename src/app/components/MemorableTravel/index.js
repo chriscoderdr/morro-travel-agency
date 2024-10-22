@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../Button";
 
 const MemorableTravel = () => {
   return (
@@ -13,11 +14,9 @@ const MemorableTravel = () => {
           agent, <span className="text-brand600">Travel!</span>
         </div>
         <div className="mt-[48px] flex">
-          <div className="bg-[#25A59E] font-urbanist text-white text-[18px] font-semibold px-[32px] py-[16px]">
-            See More
-          </div>
+          <Button text={'See More'} />
           <div className="font-urbanist text-[#333333] text-[18px] font-semibold px-[32px] py-[16px] underline-offset-8 underline">
-            Discover More
+            <a href="#">Discover More</a>
           </div>
         </div>
       </div>

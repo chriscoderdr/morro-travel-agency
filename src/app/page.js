@@ -4,6 +4,7 @@ import Destinations from "./components/Destinations";
 import WhyChooseUs from "./components/WhyChooseUs";
 import MemorableTravel from "./components/MemorableTravel";
 import TripDocumentation from "./components/TripDocumentation";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyChooseUs />
       <MemorableTravel />
       <TripDocumentation />
+      <Footer />
     </div>
   );
 }
