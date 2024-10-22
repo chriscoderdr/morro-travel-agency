@@ -7,7 +7,7 @@ const About = () => {
     <div className="mx-auto px-10">
       <NavBar />
       <div className="font-gilda">
-        <h1 className="text-centerm mt-[90px] font-urbanist font-normal text-brand600 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
+        <h1 className="text-centerm mt-[90px] font-urbanist text-heading-mobile-1 font-normal leading-heading-mobile-1 text-brand600 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           About Us
         </h1>
         <hr className="w-full border-t-[1px] border-[#D9D9D9]" />
