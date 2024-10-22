@@ -12,6 +12,7 @@ module.exports = {
         foreground: "var(--foreground)",
         neutral100: '#F2F2F2',
         neutral200: '#D9D9D9',
+        neutral600: '#737373',
         brand600: '#25A59E',
         neutral700: '#595959',
         neutral900: '#262626',
@@ -22,7 +23,8 @@ module.exports = {
       },
       fontSize: {
         'display-desktop-1': '170px',
-        'heading-desktop-1': '72px'
+        'heading-desktop-1': '72px',
+        'heading-desktop-2': '40px'
       },
       lineHeight: {
         'display-desktop-1': '170px',

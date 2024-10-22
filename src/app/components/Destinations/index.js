@@ -5,7 +5,7 @@ import SearchBar from "../SearchBar";
 
 const Destinations = () => {
     return (
-        <div className="flex justify-center w-[1200px] flex-col mt-[100px] mb-[100px]">
+        <div className="flex justify-center w-[1200px] flex-col mt-[100px]">
             <div className="flex justify-between">
                 <div className="text-heading-desktop-1 font-gilda text-neutral900 whitespace-pre-line">{"Find your best\ndestination"}</div>
                 <div className="pt-[33px]">
