@@ -14,13 +14,13 @@ const NavBar = () => {
     <div>
       <div className="max-w-[1200px] mx-auto flex justify-between mt-[45px]">
         <Link href="/">
-        <div className="text-left text-brand600 font-bold text-[28px] tracking-[0.1em]">
-          Travel
-        </div>
+          <div className="text-left text-brand600 font-bold text-[28px] tracking-[0.1em]">
+            Travel
+          </div>
         </Link>
         <div className="text-right">
           <button onClick={toggleMenu}>
-            <Image src="/menu.svg" alt="Menu" width={28} height={33}  />
+            <Image src="/menu.svg" alt="Menu" width={28} height={33} />
           </button>
         </div>
       </div>
@@ -55,13 +55,21 @@ const NavBar = () => {
           <Link href="/" className="block px-4 py-2" onClick={toggleMenu}>
             Home
           </Link>
-          <a href="#destinations" className="block px-4 py-2" onClick={toggleMenu}>
+          <a
+            href="#destinations"
+            className="block px-4 py-2"
+            onClick={toggleMenu}
+          >
             Destinations
           </a>
           <a href="/about" className="block px-4 py-2" onClick={toggleMenu}>
             About Us
           </a>
-          <a href="https://www.linkedin.com/in/chriscoderg/" className="block px-4 py-2" onClick={toggleMenu}>
+          <a
+            href="https://www.linkedin.com/in/chriscoderg/"
+            className="block px-4 py-2"
+            onClick={toggleMenu}
+          >
             Contact Us
           </a>
         </nav>

@@ -22,12 +22,15 @@ const Destinations = () => {
           destination.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
           destination.location
             .toLowerCase()
-            .includes(searchTerm.toLocaleLowerCase())
+            .includes(searchTerm.toLocaleLowerCase()),
       )
     : [];
 
   return (
-    <div className="flex justify-center w-[1200px] flex-col mt-[100px]" id="destinations">
+    <div
+      className="flex justify-center w-[1200px] flex-col mt-[100px]"
+      id="destinations"
+    >
       <div className="flex justify-between">
         <div className="text-heading-desktop-1 font-gilda text-neutral900 whitespace-pre-line">
           {"Find your best\ndestination"}

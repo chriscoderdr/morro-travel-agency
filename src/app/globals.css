@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root {
   --background: #ffffff;
@@ -25,7 +24,6 @@ body {
   font-style: normal;
   /* letter-spacing: 0.1em;
   line-height: 33px; */
-  
 }
 
 .gilda-display-regular {
@@ -40,7 +38,7 @@ body {
   border-top-left-radius: 450px;
   border-top-right-radius: 450px;
   border-bottom: 0px;
-  border: 1px solid #EE8F39;
+  border: 1px solid #ee8f39;
   /* Outer semicircle border */
   background-color: transparent;
   /* Transparent fill */
@@ -55,7 +53,7 @@ body {
   /* Inner semicircle size */
   height: 429px;
   /* Inner semicircle size */
-  background-color: #EE8F39;
+  background-color: #ee8f39;
   /* Color of the inner semicircle */
   border-top-left-radius: 429px;
   border-top-right-radius: 429px;
@@ -68,4 +66,3 @@ body {
   transform: translateX(-50%);
   /* Desplazamiento horizontal para centrar */
 }
-

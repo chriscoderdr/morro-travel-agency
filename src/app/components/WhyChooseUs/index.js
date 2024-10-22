@@ -27,7 +27,9 @@ const WhyChooseUs = () => {
         />
         <Card
           title={"Always Ready\nSupport 24/7."}
-          content={"We always make time to ask questions\nanytime and anywhere."}
+          content={
+            "We always make time to ask questions\nanytime and anywhere."
+          }
         />
       </div>
     </div>

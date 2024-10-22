@@ -1,7 +1,7 @@
 import { Location } from "iconsax-react";
 import Image from "next/image";
 
-const Destination = ({destination}) => {
+const Destination = ({ destination }) => {
   return (
     <a href={destination.externalUrl}>
       <div className="basis-1/2.9 px-[16px] items-center pt-[16px] border border-[neutral100] flex flex-col justify-center pb-[36px] shadow-[105.45px_50.41px_78.04px_rgba(55,54,100,0.05),-55.45px_50.41px_98px_rgba(55,54,100,0.04)] bg-[#FFFFFF]">

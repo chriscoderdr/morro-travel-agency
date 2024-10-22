@@ -7,13 +7,17 @@ const TripDocumentation = () => {
         {"Watch our entire trip\ndocumentation"}
       </div>
       <div>
-      <a href="https://www.youtube.com/watch?v=e8gzKGr1yqI" target="_blank" rel="noopener noreferrer">
-        <Image
-          src="/video.png"
-          alt="Video"
-          width={1440} // Set appropriate width
-          height={600} // Set appropriate height based on image aspect ratio
-        />
+        <a
+          href="https://www.youtube.com/watch?v=e8gzKGr1yqI"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/video.png"
+            alt="Video"
+            width={1440} // Set appropriate width
+            height={600} // Set appropriate height based on image aspect ratio
+          />
         </a>
       </div>
     </div>
