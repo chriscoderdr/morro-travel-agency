@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --background: #ffffff;
@@ -9,13 +13,59 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #000000;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gilda Display", serif;
+  font-style: normal;
+  /* letter-spacing: 0.1em;
+  line-height: 33px; */
+  
 }
+
+.gilda-display-regular {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outer-semicircle {
+  width: 900px;
+  height: 450px;
+  border-top-left-radius: 450px;
+  border-top-right-radius: 450px;
+  border-bottom: 0px;
+  border: 1px solid #EE8F39;
+  /* Outer semicircle border */
+  background-color: transparent;
+  /* Transparent fill */
+  position: relative;
+  /* Establish relative positioning */
+  border-bottom: 0;
+  box-sizing: border-box;
+}
+
+.inner-semicircle {
+  width: 858px;
+  /* Inner semicircle size */
+  height: 429px;
+  /* Inner semicircle size */
+  background-color: #EE8F39;
+  /* Color of the inner semicircle */
+  border-top-left-radius: 429px;
+  border-top-right-radius: 429px;
+  position: absolute;
+  /* Posicionamiento absoluto dentro del semicírculo externo */
+  left: 50%;
+  /* Centrado en relación al eje X */
+  bottom: 0;
+  /* Alineado con la parte inferior del semicírculo externo */
+  transform: translateX(-50%);
+  /* Desplazamiento horizontal para centrar */
+}
+
