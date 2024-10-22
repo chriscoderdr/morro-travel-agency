@@ -22,19 +22,21 @@ const Destinations = () => {
           destination.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
           destination.location
             .toLowerCase()
-            .includes(searchTerm.toLocaleLowerCase())
+            .includes(searchTerm.toLocaleLowerCase()),
       )
     : [];
-  console.log("destinationsjson", destinations);
 
   return (
-    <div className="flex justify-center w-[1200px] flex-col mt-[100px]">
-      <div className="flex justify-between">
-        <div className="text-heading-desktop-1 font-gilda text-neutral900 whitespace-pre-line">
+    <div
+      className="mt-[100px] flex flex-col flex-wrap justify-center"
+      id="destinations"
+    >
+      <div className="flex flex-wrap justify-between">
+        <div className="whitespace-pre-line font-gilda text-neutral900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           {"Find your best\ndestination"}
         </div>
         <div className="pt-[33px]">
-          <div className="text-neutral700 font-urbanist font-medium">
+          <div className="font-urbanist font-medium text-neutral700">
             We have more than 1000+ destinations you can choose.
           </div>
           <SearchBar onSearchChange={handleSearchChange} />

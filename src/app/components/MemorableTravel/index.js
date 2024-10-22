@@ -3,32 +3,31 @@ import Button from "../Button";
 
 const MemorableTravel = () => {
   return (
-    <div className="py-[100px] flex">
-      <div>
-        <div className="text-heading-desktop-1 text-neutral-900 font-gilda">
+    <div className="flex justify-between py-[100px]">
+      <div className="flex-1">
+        <div className="font-gilda text-neutral-900 sm:text-heading-mobile-1 sm:leading-heading-mobile-1 lg:text-heading-desktop-1 lg:leading-heading-desktop-1">
           <span className="text-brand600">Travel</span>, make the trip memorable
         </div>
-        <div className="text-neutral700 font-urbanist font-medium text-[18px] mt-[28px]">
+        <div className="mt-[28px] font-urbanist text-[18px] font-medium text-neutral700">
           Thousands of our customers always recommend us because of the service
           we provide. Your trip will be very memorable with the best travel
           agent, <span className="text-brand600">Travel!</span>
         </div>
         <div className="mt-[48px] flex">
           <Button text={"See More"} />
-          <div className="font-urbanist text-[#333333] text-[18px] font-semibold px-[32px] py-[16px] underline-offset-8 underline">
+          <div className="px-[32px] py-[16px] font-urbanist text-[18px] font-semibold text-[#333333] underline underline-offset-8">
             <a href="#" className="font-urbanist">
               Discover More
             </a>
           </div>
         </div>
       </div>
-      <div>
+      <div className="relative flex-1">
         <Image
           src="/memorabletravel.png"
           alt="Travel Image"
-          width={640} // Set appropriate width
-          height={485} // Set appropriate height based on image aspect ratio
-          className="w-[640px] h-[485px] max-w-none"
+          fill
+          style={{ objectFit: "contain" }} // Ensure it fits the container
         />
       </div>
     </div>
